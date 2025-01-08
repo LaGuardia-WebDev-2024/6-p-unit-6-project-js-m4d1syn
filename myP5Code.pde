@@ -11,10 +11,25 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
-  
-
+ 
+ //head
+  fill(255, 195, 0);
+ellipse(200,175,300,280);
+//eye ball
+fill(255,255,255);
+ellipse(120,165,80,125);
+//brown eye
+fill(130,69,19);
+  ellipse(138,165,48,50);
+  // pupil
+  fill(0,0,0);
+ellipse(145,165,33,35);
+// gleam
+fill(255,255,255);
+ellipse(154,158,10,12);
+// mouth
+fill(160,82,45);
+rect(98,270,40,7);
 }
 
 //🟡Extra FUN Features Ms. Hall Added
